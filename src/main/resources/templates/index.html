@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project application homepage">
+    <title>Project | Home</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header role="banner">
+        <nav aria-label="Main navigation">
+            <div class="container">
+                <a href="/" class="logo" aria-label="Project homepage">Project</a>
+                <button class="menu-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Toggle navigation menu">
+                    <span class="hamburger"></span>
+                </button>
+                <ul id="primary-menu" class="nav-menu" role="menubar">
+                    <li role="none"><a href="/" role="menuitem" aria-current="page">Home</a></li>
+                    <li role="none"><a href="/about" role="menuitem">About</a></li>
+                    <li role="none"><a href="/services" role="menuitem">Services</a></li>
+                    <li role="none"><a href="/contact" role="menuitem">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <h1 id="hero-heading">Welcome to Project</h1>
+                <p class="lead">A modern solution for your needs.</p>
+                <a href="/about" class="btn btn-primary">Learn More</a>
+            </div>
+        </section>
+
+        <section class="features" aria-labelledby="features-heading">
+            <div class="container">
+                <h2 id="features-heading">Our Features</h2>
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">⚡</div>
+                        <h3>Fast Performance</h3>
+                        <p>Optimized for speed and efficiency across all platforms.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">🔒</div>
+                        <h3>Secure</h3>
+                        <p>Built with security best practices to protect your data.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">📱</div>
+                        <h3>Responsive</h3>
+                        <p>Works seamlessly on desktop, tablet, and mobile devices.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">🛠️</div>
+                        <h3>Customizable</h3>
+                        <p>Easily adapt and extend to meet your specific requirements.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" aria-labelledby="cta-heading">
+            <div class="container">
+                <h2 id="cta-heading">Ready to Get Started?</h2>
+                <p>Join thousands of satisfied users today.</p>
+                <a href="/contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Project</h3>
+                    <p>&copy; <span id="current-year"></span> Project. All rights reserved.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/terms">Terms of Service</a></li>
+                        <li><a href="/sitemap">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul class="social-links">
+                        <li><a href="https://twitter.com" aria-label="Twitter">Twitter</a></li>
+                        <li><a href="https://github.com" aria-label="GitHub">GitHub</a></li>
+                        <li><a href="https://linkedin.com" aria-label="LinkedIn">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
