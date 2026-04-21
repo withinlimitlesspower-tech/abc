@@ -1,0 +1,131 @@
+# .gitignore for Project
+
+# Build artifacts
+build/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# Ruby
+/.bundle/
+/vendor/bundle
+*.gem
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Mobile development (iOS/Android)
+*.ipa
+*.apk
+*.keystore
+
+# Temporary files
+*.tmp
+*.temp
+
+# Documentation
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Test coverage
+.coverage
+coverage/
+*.cover
+.hypothesis/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Project specific
+*.bak
+*.backup
+*.orig
+*.rej
